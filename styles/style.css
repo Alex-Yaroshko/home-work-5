@@ -3,6 +3,9 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+.body {
+    background-color: #FFFF;
+}
 
 /* HEADER */
 .header {
@@ -11,6 +14,7 @@
     left: 0%;
     right: 0%;
     top: 0px;
+    z-index: 1000;
     background: #FFFF;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
 }
@@ -62,6 +66,7 @@
     width: 100%;
     max-width: 1168px;
     margin: 0;
+    padding-right: 100px;
 }
 .intro__sec1 {
     display: block;
@@ -76,12 +81,15 @@
 .intro__sec1-logoname {
     position: relative;
     top: -4.5%;  /*Тут вопрос*/
+    margin: 0;
 }
 .intro__sec1-head {
     max-width: 400px ;
+    margin: 0;
 }
 .intro__sec1-par {
     max-width: 400px ;
+    margin: 0;
 }
 .intro__btn {
     display: inline-block;
@@ -105,10 +113,33 @@
 }
 /* FEATURES */
 .features {
-        /* display: flex;
-        justify-content: space-between; */
-        padding-top: 190px;
-        width: 100%;
-        max-width: 1168px;
-        margin: 0;
-    }
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding-top: 100px; */
+    width: 100%;
+    margin: 0;
+    background: #222;
+}
+.features__title {
+    margin: 0;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+.features__inner {
+    width: 100%;
+    max-width: 85px;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  .features__subtitle {
+    margin: 0;
+    height: auto;
+    text-align: center;
+  }
+  .features__inner2 {
+    width: 100%;
+    max-width: 495px;
+    margin: 0 auto;
+    padding-top: 5px;
+  }

@@ -19,4 +19,21 @@ body {
     font-size: 22px;
     font-weight: 800;
 }
+/* FEATURES */
+.features__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFF;
+}
+.features__subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FFFF;
+}
 
