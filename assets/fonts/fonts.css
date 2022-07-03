@@ -37,3 +37,313 @@ body {
     color: #FFFF;
 }
 
+
+
+
+
+
+
+
+
+
+/* Stats */
+.stats__item-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+    color: #FFFFFF;
+}
+
+
+.stats__item-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+/* TECHNOLOGY */
+.technology__sec1-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.technology__sec1-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+}
+.technology__sec1-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:#666666;
+}
+
+
+
+
+/* SPEED&SECURE */
+.speed__sec2-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.speed__sec2-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+}
+.speed_sec2-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:#666666;
+}
+/* DARK */
+.dark__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.dark__subtitle1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.dark__subtitle2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 578px;
+}
+.dark__block-text1, .dark__block-icons-text2 {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+/* PRICING */
+.pricing__text1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:#222222;
+}
+.pricing__text2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color:#222222;
+    text-align: center;
+}
+.pricing__text3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color:#222222;
+    text-align: center;   
+}
+            /*Pricing-blocks  */
+.pricing__blocks-bl1-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #0278ED;
+}
+.pricing__blocks-bl1-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 108px;
+    line-height: 124px;
+    text-align: center;
+    letter-spacing: 8px;
+    color: #0278ED;
+}
+.pricing__blocks-bl1-period,
+.pricing__blocks-bl2-period,
+.pricing__blocks-bl3-period {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.pricing__blocks-bl1-button,
+.pricing__blocks-bl2-button,
+.pricing__blocks-bl3-button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.pricing__blocks-bl2-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 108px;
+    line-height: 124px;
+    text-align: center;
+    letter-spacing: 8px;
+    color: #FF5437;
+}
+.pricing__blocks-bl2-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FF5437;
+}
+.pricing__blocks-bl3-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 108px;
+    line-height: 124px;
+    text-align: center;
+    letter-spacing: 8px;
+    color: #FF9209
+}
+.pricing__blocks-bl3-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FF9209
+}
+/* TESTIMONIALS */
+.testimonials__text1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.testimonials__text2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #222222;
+}
+.testimonials__text3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;  
+}
+
+/* Testimonials bloks */
+.testimonials__blocks-bl1-name,
+.testimonials__blocks-bl2-name,
+.testimonials__blocks-bl3-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+}
+.testimonials__blocks-bl1-price,
+.testimonials__blocks-bl2-price,
+.testimonials__blocks-bl3-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1B1A1A;
+}
+.testimonials__blocks-bl1-period,
+.testimonials__blocks-bl2-period,
+.testimonials__blocks-bl3-period {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1B1A1A;
+}
+
+
+
