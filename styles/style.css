@@ -792,6 +792,14 @@ hr {
     top: 570px;
     margin-left: 260px;
 }
+.sun_svg :hover {
+    fill: yellow;
+    transition: 0.5s;
+}
+.moon_svg :hover {
+    fill: blue;
+    transition: 0.5s;
+}
 .dark__block-icons-text1 {
     max-width: 107px;
     margin-top: 5px;
