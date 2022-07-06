@@ -3,7 +3,7 @@ body {
     font-size:16 px;
 }
 .intro__sec1-logoname {
-    font-size: 24px;
+    font-size: 35px;
     font-weight: 800;
 
 }
@@ -21,6 +21,20 @@ body {
 .header__logoname{
     font-size: 22px;
     font-weight: 800;
+}
+.header__logo {
+    font-size: 21px;
+    font-weight: 800;
+    color: #FFFFFF;
+    padding: 10px;
+    background: linear-gradient(134.6deg, #D140F8 -3.11%, #788CE9 33.98%, #37C2DE 66.35%, #1ECCAE 98.49%); 
+    border-radius: 15px;
+    text-decoration: none;
+}
+.header__title {
+    font-size: 22px;
+    font-weight: 800;
+    color: #222222;
 }
 /* FEATURES */
 .features__inner-title {

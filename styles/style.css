@@ -18,17 +18,21 @@
     background: #FFFF;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
 }
-.header__logoname{
-   position: relative;
-   top: -10px;
-   left: 9px;
+.header__logo:hover {
+    color: rgba(192, 201, 216, 0.932);
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
 }
-
 .header__inner {
     display: flex;
     justify-content: space-between;
     padding: 23px;
     align-items: center;
+}
+.header__title {
+    position: relative;
+    left: -231px;
 }
 .nav {
     font-size: 15px;
@@ -40,6 +44,7 @@
     color: #666666;
     text-decoration:none;
     margin-left: 15px;
+    border-radius: 4px;
 }
 .nav__templ {
     background: #222;
@@ -55,6 +60,10 @@
 }
 .nav__head:hover {
     text-decoration: underline;
+    background: black;
+    transition: 0.5s;
+    color: white;
+    padding: 3px;
 }
 .nav__templ:hover {
     text-decoration: underline;
@@ -80,12 +89,25 @@
     margin: 0 auto;
 }
 .intro__sec1-logo {
-    width: 64px;
-    height: auto;
+    font-size: 34px;
+    font-weight: 800;
+    color: #FFFFFF;
+    padding: 10px;
+    background: linear-gradient(134.6deg, #D140F8 -3.11%, #788CE9 33.98%, #37C2DE 66.35%, #1ECCAE 98.49%); 
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.intro__sec1-logo:hover {
+    color: rgba(192, 201, 216, 0.932);
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
 }
 .intro__sec1-logoname {
     position: relative;
-    top: -4.5%;  /*Тут вопрос*/
+    top: -10%;  /*Тут вопрос*/
+    left: 21%;
     margin: 0;
 }
 .intro__sec1-head {
@@ -725,7 +747,7 @@
 .speed__sec1-1 {
     position: absolute;
     z-index: 0;
-    left: -72.3%;
+    left: -65.3%;
     top: 110%;
 }
 .speed__sec1-img {
@@ -747,7 +769,8 @@
 }
 .speed__phone {
     position: relative;
-    max-width: 376px;
+    max-width: 321px;
+    max-height: 695px;
     left: 37%;
     top: -100%;
 }
@@ -1234,11 +1257,29 @@ hr {
     position: relative;
 }
 .contacts__inner-img {
-    position: absolute;
+    position: ar;
     top:0.23px;
     left:547.4px;
     max-width: 75px;
     max-height: 75px;
+}
+.contacts__inner-logo{
+    position: absolute;
+    left: 46%;
+    font-size: 35px;
+    font-weight: 800;
+    color: #FFFFFF;
+    padding: 10px;
+    background: linear-gradient(134.6deg, #D140F8 -3.11%, #788CE9 33.98%, #37C2DE 66.35%, #1ECCAE 98.49%); 
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.contacts__inner-logo:hover {
+    color: rgba(192, 201, 216, 0.932);
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
 }
 .contacts__inner-title {
     position: absolute;
