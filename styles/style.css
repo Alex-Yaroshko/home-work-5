@@ -112,7 +112,8 @@
 }
 .intro__sec1-head {
     max-width: 400px ;
-    margin: 0;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 .intro__sec1-par {
     max-width: 400px ;

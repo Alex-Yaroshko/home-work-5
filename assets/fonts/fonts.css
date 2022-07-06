@@ -379,6 +379,16 @@ color: #222222;
     text-transform: uppercase;
     color: #FFFFFF;
 }
+.pricing__blocks-bl1-button:hover,
+.pricing__blocks-bl2-button:hover,
+.pricing__blocks-bl3-button:hover {
+    background: white;
+    color: black;
+    border: solid black 1px;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration:underline;
+}
 .pricing__blocks-bl2-price {
     font-family: 'Poppins';
     font-style: normal;
