@@ -56,16 +56,16 @@ body {
 
 /* FEATURES BLOCKS */
 /* Block1 */
-.features__inner-bl1-cont-title {
+.features__block-title {
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
+/* font-size: 18px; */
 line-height: 30px;
 text-align: center;
-color: #0278ED;
+margin: 0;
 }
-.features__inner-bl1-cont-text {
+.features__block-text {
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -73,112 +73,8 @@ font-size: 15px;
 line-height: 22px;
 text-align: center;
 color: #222222;
+margin: 0;
 }
-
-/*Block2 */
-.features__inner-bl2-cont-title {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    color: #FF5437;
-    }
-    .features__inner-bl2-cont-text {
-        font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 22px;
-    text-align: center;
-    color: #222222;
-    }
-    /*Block3 */
-.features__inner-bl3-cont-title {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    color: #FF9209;
-    }
-    .features__inner-bl3-cont-text {
-        font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 22px;
-    text-align: center;
-    color: #222222;
-    }
-        /*Block4 */
-.features__inner-bl4-cont-title {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    color: #E738CE;
-    }
-    .features__inner-bl4-cont-text {
-        font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 22px;
-    text-align: center;
-    color: #222222;
-    }
-  /*Block5 */
-.features__inner-bl5-cont-title {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    color: #00C6DF;
-    }
-    .features__inner-bl5-cont-text {
-        font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 22px;
-    text-align: center;
-    color: #222222;
-    }
-      /*Block6 */
-.features__inner-bl6-cont-title {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    color: #B25DF8;
-    }
-    .features__inner-bl6-cont-text {
-        font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 22px;
-    text-align: center;
-    color: #222222;
-    }
-
-
-
-
-
-
-
-
-
 
 
 /* Stats */
@@ -292,7 +188,7 @@ color: #222222;
     text-align: center;
     max-width: 578px;
 }
-.dark__block-text1, .dark__block-icons-text2 {
+.dark-text {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -304,7 +200,7 @@ color: #222222;
     color: #FFFFFF;
 }
 /* PRICING */
-.pricing__text1 {
+.pricing__title {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -315,7 +211,7 @@ color: #222222;
     text-transform: uppercase;
     color:#222222;
 }
-.pricing__text2 {
+.pricing__subtitle1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -324,13 +220,13 @@ color: #222222;
     color:#222222;
     text-align: center;
 }
-.pricing__text3 {
+.pricing__subtitle2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    color:#222222;
+    color:#666666;
     text-align: center;   
 }
             /*Pricing-blocks  */
@@ -428,7 +324,7 @@ color: #222222;
     color: #FF9209
 }
 /* TESTIMONIALS */
-.testimonials__text1 {
+.testimonials__title {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -439,7 +335,7 @@ color: #222222;
     text-transform: uppercase;
     color: #222222;
 }
-.testimonials__text2 {
+.testimonials__subtitle1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -448,7 +344,7 @@ color: #222222;
     text-align: center;
     color: #222222;
 }
-.testimonials__text3 {
+.testimonials__subtitle2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -459,9 +355,9 @@ color: #222222;
 }
 
 /* Testimonials bloks */
-.testimonials__blocks-bl1-name,
-.testimonials__blocks-bl2-name,
-.testimonials__blocks-bl3-name {
+.customer__name,
+.customer__name3,
+.customer__name2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -469,28 +365,26 @@ color: #222222;
     line-height: 24px;
     color: #222222;
 }
-.testimonials__blocks-bl1-price,
-.testimonials__blocks-bl2-price,
-.testimonials__blocks-bl3-price {
+.customer__company,
+.customer__company3,
+.customer__company2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    color: #1B1A1A;
+    color: #222222;
 }
-.testimonials__blocks-bl1-period,
-.testimonials__blocks-bl2-period,
-.testimonials__blocks-bl3-period {
+.customer__feedback {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    color: #1B1A1A;
+    color: #222222;
 }
 /* DOWNLOAD */
-.download__text1 {
+.download__title {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -501,7 +395,7 @@ color: #222222;
     text-transform: uppercase;
     color: #222222;
 }
-.download__text2 {
+.download__subtitle1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -510,7 +404,7 @@ color: #222222;
     text-align: center;
     color: #222222;
 }
-.download__text3{
+.download__subtitle2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -523,7 +417,7 @@ color: #222222;
 
 /* FAQ */
 
-.faq__inner-h1-text {
+.faq-sec1-h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -532,18 +426,8 @@ color: #222222;
     color: #222222;
     text-transform: uppercase;
 }
-.faq__inner-p1-text {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    color: #222222;
-}
-.faq__inner-h2-text,
-.faq__inner-h3-text,
-.faq__inner-h4-text,
-.faq__inner-h5-text {
+.faq-h3,
+.faq-h3-sec2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -551,44 +435,29 @@ color: #222222;
     line-height: 28px;
     color: #222222;
 }
-.faq__inner-p2-text,
-.faq__inner-p3-text,
-.faq__inner-p4-text,
-.faq__inner-p5-text {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #222222;
-}
 
 /* Contacts */
-.contacts__inner-t {
-    font-size: 34px;
+.cont__sec1-logoname {
+    font-size: 35px;
     font-weight: 800;
 }
-/* contacts text */
-.contacts__inner-text1-1,
-.contacts__inner-text2-2,
-.contacts__inner-text3-3,
-.contacts__inner-text4-4 {
+.cont-licence {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
 }
-.contacts__inner-text2-2,
-.contacts__inner-text4-4 {
+.cont-licence span:nth-child(1){
+    color: #B1B1B1;
+}
+.cont-licence span:nth-child(2){
     color: #666666;
+}.cont-licence span:nth-child(3){
+    color: #B1B1B1;
 }
-.contacts__inner-text3-3,
-.contacts__inner-text1-1 {
-  color: #B1B1B1;
+.cont-licence span:nth-child(4){
+    color: #666666;;
 }
-
-
 
 
